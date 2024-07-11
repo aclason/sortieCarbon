@@ -2,13 +2,14 @@
 % Please edit documentation in R/readSORTIE.R
 \name{readSortie}
 \alias{readSortie}
-\title{Read SORTIE outputs}
+\title{read SORTIE}
 \usage{
-readSortie(filenames)
+readSortie(outputs)
 }
 \arguments{
-\item{filenames}{expecting a single csv for each site/plot with all timesteps}
+\item{outputs}{expecting a single csv for each site/plot with all timesteps or a vector of
+filenames to read in}
 }
 \description{
-Read SORTIE outputs
+read SORTIE
 }

@@ -4,14 +4,17 @@
 \alias{calcSortieC}
 \title{Title}
 \usage{
-calcSortieC(outputs, dead = FALSE, BEC)
+calcSortieC(sortie_outputs, dead = FALSE, BEC)
 }
 \arguments{
-\item{outputs}{sortie output saved in a data.table}
+\item{sortie_outputs}{sortie output saved in a data.table}
 
 \item{dead}{include snags in the calculation}
 
 \item{BEC}{Biogeoclimatic ecosystem classification zone}
+
+\item{Ht_from_diam}{calculate the height based on the diameter (allometry) == TRUE
+or use Height from Sortie == FALSE}
 }
 \description{
 Title
